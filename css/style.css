@@ -11,6 +11,18 @@ body {
   line-height: 20px;
 }
 
+@media (min-width: 320px) {
+  body {
+    width: 1200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    width: auto;
+  }
+}
+
 .main-content {
   color: #fff;
   background-color: #849d8f;
