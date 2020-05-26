@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>SouthMedia - Тестовое задание</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+  <svg style="display: none;">
+    <symbol id="logo" viewBox="0 0 134 18">
+        <path d="M10.362 6.392L8.73 8.312c-.84-.792-1.8-1.056-2.928-1.056-1.392 0-2.16.432-2.16 1.176 0 .768.696 1.2 2.208 1.296 2.232.144 5.064.648 5.064 3.792 0 2.088-1.704 3.888-5.088 3.888-1.872 0-3.744-.312-5.472-2.112l1.44-2.088c.84.936 2.76 1.632 4.08 1.656 1.104.024 2.136-.552 2.136-1.416 0-.816-.672-1.152-2.352-1.248-2.232-.168-4.896-.984-4.896-3.672 0-2.736 2.832-3.696 4.992-3.696 1.848 0 3.24.36 4.608 1.56zm8.092-1.464c3.768 0 6.192 2.784 6.192 6.168 0 3.408-2.328 6.168-6.168 6.168-3.84 0-6.144-2.76-6.144-6.168 0-3.384 2.352-6.168 6.12-6.168zm.024 2.664c-2.112 0-3.216 1.728-3.216 3.504 0 1.8 1.08 3.48 3.216 3.48s3.216-1.68 3.216-3.48c0-1.776-1.248-3.504-3.216-3.504zm8.356-2.424h2.928v6.192c0 1.8.984 3.168 2.856 3.168 1.8 0 3.024-1.512 3.024-3.312V5.168h2.904v11.856H35.93l-.192-1.608c-1.224 1.2-2.352 1.776-4.008 1.776-2.832 0-4.896-2.136-4.896-5.808V5.168zm15.604-3.024l2.928-.312v3.36h3.264v2.52h-3.288v5.112c0 1.128.624 1.68 1.536 1.68.456 0 .984-.144 1.416-.36l.816 2.496a6.54 6.54 0 0 1-2.424.504c-2.568.096-4.248-1.368-4.248-4.32V7.712H40.23v-2.52h2.208V2.144zM50.914.2h2.928v6.576C54.898 5.408 56.194 5 57.538 5c3.36 0 4.848 2.28 4.848 5.76V17h-2.928v-6.216c0-2.16-1.128-3.072-2.688-3.072-1.728 0-2.928 1.464-2.928 3.24V17h-2.928V.2zM75.758 17H72.83v-6.336c0-1.56-.816-2.976-2.424-2.976-1.584 0-2.52 1.416-2.52 2.976V17h-2.928V5.144h2.712l.216 1.44c.624-1.2 1.992-1.632 3.12-1.632 1.416 0 2.832.576 3.504 2.208C75.566 5.48 76.934 5 78.47 5c3.36 0 5.016 2.064 5.016 5.616V17h-2.928v-6.384c0-1.56-.648-2.88-2.232-2.88s-2.568 1.368-2.568 2.928V17zm22.54-4.872h-9.24c.192 1.464 1.464 2.52 3.528 2.52 1.08 0 2.496-.408 3.168-1.104l1.872 1.848c-1.248 1.296-3.288 1.92-5.088 1.92-4.08 0-6.504-2.52-6.504-6.312 0-3.6 2.448-6.192 6.288-6.192 3.96 0 6.432 2.448 5.976 7.32zm-9.192-2.424h6.384C95.298 8.168 94.098 7.4 92.418 7.4c-1.584 0-2.88.768-3.312 2.304zm17.284-2.088c-1.872 0-3.36 1.32-3.36 3.456 0 2.064 1.488 3.48 3.36 3.48 1.848 0 3.432-1.344 3.432-3.48 0-2.064-1.584-3.456-3.432-3.456zm3.624-7.392h2.928V17h-2.736l-.192-1.632c-.912 1.416-2.376 1.896-3.816 1.896-3.48 0-6.096-2.304-6.096-6.192 0-4.08 2.568-6.192 6.024-6.192 1.248 0 3.192.672 3.888 1.896V.224zm8.5 4.896V17h-2.928V5.12h2.928zm-3.192-3.288c0-2.28 3.456-2.28 3.456 0s-3.456 2.28-3.456 0zm15.22 4.968l.096-1.632h2.808V17h-2.76l-.144-1.728c-.672 1.392-2.52 2.064-3.84 2.088-3.504.024-6.096-2.136-6.096-6.288 0-4.08 2.712-6.216 6.168-6.192 1.584 0 3.096.744 3.768 1.92zm-3.504.696c-1.944 0-3.504 1.32-3.504 3.576 0 2.256 1.56 3.6 3.504 3.6 4.608 0 4.608-7.176 0-7.176z" clip-rule="evenodd" fill-rule="evenodd"></path>
+      </symbol>
+  </svg>
+  <div class="page__layout">
+    <div class="page__overlay overlay"></div>
+    <div class="page__nav nav-list">
+      <button class="nav-list__close" type="button"></button>
+      <div class="nav-list__item"><a href="#">Главная</a></div>
+      <div class="nav-list__item"><a href="#">Подбор блюд</a></div>
+    </div>
+    <header class="header">
+      <div class="header__left">
+        <button class="header__menu-btn" type="button">
+          <div class="hamburger" id="hamburger-catalog">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        </button>
+      </div>
+      <div class="header__right">
+        <a class="header__logo" title="Southmedia" href="https://southmedia.ru/">
+          <svg width="150" height="18">
+            <use xlink:href="#logo" class="logo-top" />
+          </svg>
+        </a>
+      </div>
+    </header>
+    <main class="main container" data-fs-scroll>
+      <div class="sections">
+        <div class="parallax" id="scene">
+          <div class="parallax__el parallax__el--1" data-depth="0.15">
+            <span></span>
+          </div>
+          <div class="parallax__el parallax__el--2" data-depth="0.30">
+            <span></span>
+          </div>
+          <div class="parallax__el parallax__el--3" data-depth="0.45">
+            <span></span>
+          </div>
+          <div class="parallax__el parallax__el--4" data-depth="0.60">
+            <span></span>
+          </div>
+          <div class="parallax__el parallax__el--5" data-depth="0.75">
+            <span></span>
+          </div>
+        </div>
+        <section class="main__content section section0">
+          <div class="main__text fade-in one">
+            <h1 class="main__title">Как понять, что греча твое все?</h1>
+            <p class="main__description">Укажи, чего ты хочешь<br> и получи подборку блюд из гречи</p>
+          </div>
+          <div class="main__image-container fade-in two">
+            <img class="main__image" src="./img/pie.png" alt="russian pie">
+          </div>
+          <div class="main__circle circle fade-in three">
+            <a href="#" class="circle__text" id="jump-btn">Начать</a>
+            <span class="circle__arrow">
+              <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.5 0.255249V15.0986" stroke="white" stroke-width="3"/>
+                <path d="M1.68005 9.08105L8.49998 15.4998L15.3199 9.08105" stroke="white" stroke-width="3"/>
+              </svg>
+            </span>
+          </div>
+        </section>
+        <section class="order section section1" id="section1">
+          <div class="order__section-container">
+            <div class="order__description">
+              <h2 class="order__title">Твоя греча</h2>
+              <p class="order__text">Укажи, чего ты хочешь<br> и получи подборку блюд из гречи</p>
+            </div>
+            <form class="order__form">
+              <div class="order__inputs">
+                <div class="order__input-range range">
+                  <label class="range__label">Насколько ты любишь гречку?</label>
+                  <div class="range__single">
+                    <input class="range__input" id="single-input" type="range" min="0" max="100" value="0">
+                    <div class="range__slider">
+                      <div class="range__track"></div>
+                      <div class="range__range-level"></div>
+                      <div class="range__thumb">
+                        <div class="range__info">на все <span>90</span>%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="order__input-range multiple-range">
+                  <label class="multiple-range__label">Время на приготовление</label>
+                  <div class="multiple-range__multi-box">
+                    <input class="multiple-range__input multiple-range__input--left" id="input-left" min="0" max="120" value="0" type="range">
+                    <input class="multiple-range__input multiple-range__input--right" id="input-right" min="0" max="120" value="30" type="range">
+                    <div class="multiple-range__slider">
+                      <div class="multiple-range__track"></div>
+                      <div class="multiple-range__range"></div>
+                      <div class="multiple-range__thumb left"></div>
+                      <div class="multiple-range__thumb right"></div>
+                    </div>
+                    <div class="multiple-range__val">
+                      <span class="multiple-range__value multiple-range__value--min"></span>
+                      <span class="multiple-range__value multiple-range__value--dash">—</span>
+                      <span class="multiple-range__value multiple-range__value--max"></span>
+                      <span class="multiple-range__value multiple-range__value--minutes">мин.</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="order__inputs-radio radio">
+                  <label class="radio__label">Время приема</label>
+                  <ul class="radio__collection radio-collection">
+                    <li class="radio-collection__clause">
+                      <input class="radio-collection__input visually-hidden" type="checkbox" name="breakfast" id="breakfast">
+                      <label for="breakfast" class="radio-collection__label">Завтрак</label>
+                    </li>
+                    <li class="radio-collection__clause">
+                      <input class="radio-collection__input visually-hidden" type="checkbox" name="lunch" id="lunch" checked>
+                      <label for="lunch" class="radio-collection__label">Обед</label>
+                    </li>
+                    <li class="radio-collection__clause">
+                      <input class="radio-collection__input visually-hidden" type="checkbox" name="dinner" id="dinner" checked>
+                      <label for="dinner" class="radio-collection__label">Ужин</label>
+                    </li>
+                    <li class="radio-collection__clause">
+                      <input class="radio-collection__input visually-hidden" type="checkbox" name="dojor-night" id="dojor-night">
+                      <label for="dojor-night" class="radio-collection__label">Ночной дожор</label>
+                    </li>
+                  </ul>
+                </div>
+                <div class="order__contacts contacts">
+                  <div class="contacts__box contacts__box--name contacts__name">
+                    <label class="contacts__label" for="name">Имя</label>
+                    <input class="contacts__input contacts__input--name" type="text" name="name" id="name">
+                  </div>
+                  <div class="contacts__box contacts__box--phone contacts__phone">
+                    <label for="phone" class="contacts__label">Телефон</label>
+                    <input class="contacts__input contacts__input--phone" type="tel" name="phone" id="phone" placeholder="+ 7 (___) ___-__-__">
+                  </div>
+                </div>
+                <button class="order__action-btn" type="button">Получить по гречке</button>
+              </div>
+            </form>
+          </div>
+          <div class="order__footer">
+            <svg width="150" height="18">
+              <use xlink:href="#logo" class="logo-bottom" />
+            </svg>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script src="scripts/libs.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
